@@ -9,4 +9,12 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 * Js Drum Kit
 
+## Day two
+
+* Js and CSS Clock
+
+## Day Three
+
+* CSS Variables
+
 Demos (comming soon)
