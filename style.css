@@ -2,8 +2,12 @@ body{
     background-color: #00ffff00;
 }
 .main-container{
-    margin-left: 70px;
-   
+    padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
 }
 
 .card {
@@ -11,14 +15,38 @@ body{
     transition: 0.3s;
     width: 30%;
     float: left;
-    margin: 5px 5px 5px 5px;
+    margin: 1px 1px 1px 1px;
     text-align: center;
     transition: width 2s;
+    border-radius: 5px;
 }
 
 .card:hover {
     box-shadow: 5px 8px 16px 0 rgba(52, 5, 105, 0.2);
     font-size: 16px;
+}
+
+.card:hover a {
+  
+    font-size: 16.5px;
+}
+
+.card-container{
+display: flex;
+
+}
+.card-day{
+    flex: 1;
+    border-right: 1px ridge rgba(54, 54, 54, 0.33);
+    font-size: 18px
+}
+
+.card-day p {
+    font-size: 18px;
+    font-weight: 900;
+}
+.card-body{
+    flex: 2;
 }
 
 .container {
@@ -31,7 +59,7 @@ img{
     width: 100%;
     height: auto;
 }
-h4 a{
+a{
     text-decoration: none;
 }
 h1{

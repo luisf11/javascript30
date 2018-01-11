@@ -1,26 +1,49 @@
-"use strict";
+// "use strict";
 
 const challenges = [
   {
-    name: " 01 - JavaScript Drum Kit",
+    id: 01,
+    name: "JavaScript Drum Kit",
     path: "./01 - JavaScript Drum Kit/index.html"
   },
-  { name: " 02 - JS and CSS Clock", path: "./02 - JS and CSS Clock/index.html" },
-  { name: " 03 - CSS Variables", path: "./03 - CSS Variables/index.html" },
-  { name: " 04 - Array Cardio Day 1", path: "./04 - Array Cardio Day 1/index.html" }
+  {
+    id: 02,
+    name: "JS and CSS Clock",
+    path: "./02 - JS and CSS Clock/index.html"
+  },
+  { id: 03, name: "CSS Variables", path: "./03 - CSS Variables/index.html" },
+  {
+    id: 04,
+    name: "Array Cardio Day 1",
+    path: "./04 - Array Cardio Day 1/index.html"
+  },
+  {
+    id: 05,
+    name: "Flex Panel Gallery",
+    path: "./05 - Flex Panel Gallery/index.html"
+  }
 ];
 
 const card = `
-           ${challenges.map(challenge => ` 
-                <div class="card">
-                    <div class="container">
+           ${challenges
+             .map(
+               challenge => ` 
+           <div class="card">
+                <a href="${challenge.path}" class="card-container">
+                    <div class="card-day">
+                        <b>Day</b>
+                        <p>${challenge.id}</p> 
+                    </div>
+                    <div class="card-body">
                         <h4>
-                            <a href="${challenge.path}"><b>${challenge.name}</b></a>
+                            <b>${challenge.name}</b>
                         </h4>
                     </div>
-                </div>
-                `).join('')}
+                </a>
+            </div>  
+                `
+             )
+             .join("")}
 `;
 
-document.querySelector('.main-container').innerHTML = card;
-
+document.querySelector(".main-container").innerHTML = card;
