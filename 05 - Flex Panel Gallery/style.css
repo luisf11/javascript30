@@ -33,9 +33,9 @@ html {
     font-size: 20px;
     background-size:cover;
     background-position:center;
-    justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     flex: 1;
+    justify-content: center;
     display: flex;
     flex-direction: column;
   }
@@ -58,8 +58,8 @@ html {
   }
 
   .panel > *:first-child {transform:translateY(-100%); }
-  .panel.panel-active > *:first-child {transform:translateY(0); }
-  .panel > *:last-child {transform:translateY(-100%); }
+  .panel.open-active > *:first-child {transform:translateY(0); }
+  .panel > *:last-child {transform:translateY(100%); }
   .panel.open-active > *:last-child {transform:translateY(0); }
 
   .panel p {
@@ -73,6 +73,6 @@ html {
   }
 
   .panel.open {
-    font-size:40px;
     flex: 5;
+    font-size:40px;
   }
