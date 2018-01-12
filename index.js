@@ -21,9 +21,15 @@ const challenges = [
     id: 05,
     name: "Flex Panel Gallery",
     path: "./05 - Flex Panel Gallery/index.html"
+  },
+  {
+    id: 06,
+    name: "Type Ahead",
+    path: "./06 - Type Ahead/index.html"
   }
+  
 ];
-
+// 06 - Type Ahead
 const card = `
            ${challenges
              .map(
