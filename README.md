@@ -21,4 +21,12 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 * Array Cardio Day 1
 
+## Day Five
+
+* Flex Panel Gallery
+
+## Day Six
+
+* Type Ahead
+
 [Challenges Demos](https://luisf11.github.io/javascript30/)
