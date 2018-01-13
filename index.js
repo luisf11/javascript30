@@ -26,10 +26,15 @@ const challenges = [
     id: '06',
     name: "Type Ahead",
     path: "./06 - Type Ahead/index.html"
+  },
+  {
+    id: '07',
+    name: "Array Cardio Day 2",
+    path: "./07 - Array Cardio Day 2/index.html"
   }
   
 ];
-// 06 - Type Ahead
+// 07 - Array Cardio Day 2
 const card = `
            ${challenges
              .map(
