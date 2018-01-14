@@ -31,6 +31,11 @@ const challenges = [
     id: '07',
     name: "Array Cardio Day 2",
     path: "./07 - Array Cardio Day 2/index.html"
+  },
+  {
+    id: '08',
+    name: "Fun with HTML5 Canvas",
+    path: "./08 - Fun with HTML5 Canvas/index.html"
   }
   
 ];

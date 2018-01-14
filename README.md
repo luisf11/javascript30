@@ -29,4 +29,12 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 * Type Ahead
 
+## Day Seven 
+
+* Array Cardio Day 1
+
+## Day Eight
+
+* Fun with HTML5 Canvas
+
 [Challenges Demos](https://luisf11.github.io/javascript30/)
