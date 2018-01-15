@@ -36,6 +36,16 @@ const challenges = [
     id: '08',
     name: "Fun with HTML5 Canvas",
     path: "./08 - Fun with HTML5 Canvas/index.html"
+  },
+  {
+    id: '09',
+    name: "Dev Tools Domination",
+    path: "./09 - Dev Tools Domination/index.html"
+  },
+  {
+    id: '10',
+    name: "Hold Shift and Check Checkboxes",
+    path: "./10 - Hold Shift and Check Checkboxes/index.html"
   }
   
 ];

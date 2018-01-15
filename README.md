@@ -37,4 +37,12 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 * Fun with HTML5 Canvas
 
+## Day Nine
+
+* 09 - Dev Tools Domination
+
+## Day Ten
+
+* Hold Shift and Check Checkboxes
+
 [Challenges Demos](https://luisf11.github.io/javascript30/)
