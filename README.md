@@ -45,4 +45,10 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 * [Hold Shift and Check Checkboxes](https://luisf11.github.io/javascript30/10%20-%20Hold%20Shift%20and%20Check%20Checkboxes/index.html)
 
+## Day eleven
 
+* [Custom Video Player](https://luisf11.github.io/javascript30/11%20-%20Custom%20Video%20Player/index.html)
+
+## Day Twelve
+
+[Key Sequence Detection](https://luisf11.github.io/javascript30/12 - Key Sequence Detection/index.html)

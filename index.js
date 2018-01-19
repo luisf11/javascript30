@@ -46,6 +46,16 @@ const challenges = [
     id: '10',
     name: "Hold Shift and Check Checkboxes",
     path: "./10 - Hold Shift and Check Checkboxes/index.html"
+  },
+  {
+    id: '11',
+    name: "Custom Video Player",
+    path: "./11 - Custom Video Player/index.html"
+  },
+  {
+    id: '12',
+    name: "Key Sequence Detection",
+    path: "./12 - Key Sequence Detection/index.html"
   }
   
 ];
