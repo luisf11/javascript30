@@ -15,11 +15,27 @@ function debounce(func, wait = 20, immediate = true) {
     };
   }
 
-const sliderImages = document.querySelectorAll('slide-in');
-
+const sliderImages = document.querySelectorAll('.slide-in');
+console.log(sliderImages)
 function checkSlide(e){
+    console.log('scrolleo')
+    sliderImages.forEach(slideImage => {
+        //scrollY Retorna el número de píxeles que han sido desplazados en el documento mediante el scroll vertical.
+        const slideInAt = (window.scrollY + window.innerHeight) - slideImage.height / 2;
+        console.log(slideInAt)
+        //que tan lejos esta la imagen del princiopio de la ventana esta
+        const imageBottom = slideImage.offsetTop;
 
+        const isHalfShown = slideInAt > slideImage.offsetTop;
+        const isNotScrolledpast = window.scrollY < imageBottom;
+
+        if(isHalfShown && isNotScrolledpast){
+            slideImage.classList.add('active');
+        }else{
+            slideImage.classList.remove('active');
+        }
+    })
 }
 
-window.addEventListener('scroll',debounce(checkSlide,500));
+window.addEventListener('scroll',debounce(checkSlide));
 
