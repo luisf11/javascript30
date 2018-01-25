@@ -56,6 +56,21 @@ const challenges = [
     id: '12',
     name: "Key Sequence Detection",
     path: "./12 - Key Sequence Detection/index.html"
+  },
+  {
+    id: '13',
+    name: "Slide in on Scroll",
+    path: "./13 - Slide in on Scroll/index.html"
+  },
+  {
+    id: '14',
+    name: "JavaScript References VS Copying",
+    path: "./14 - JavaScript References VS Copying/index.html"
+  },
+  {
+    id: '15',
+    name: "LocalStorage",
+    path: "./15 - LocalStorage/index.html"
   }
   
 ];
