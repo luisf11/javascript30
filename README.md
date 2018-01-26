@@ -51,4 +51,16 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 
 ## Day Twelve
 
-[Key Sequence Detection](https://luisf11.github.io/javascript30/12 - Key Sequence Detection/index.html)
+* [Key Sequence Detection](https://luisf11.github.io/javascript30/12%20-%20Key%20Sequence%20Detection/index.html)
+
+## Day thirteen
+
+* [Slide in on Scroll](https://luisf11.github.io/javascript30/13%20-%20Slide%20in%20on%20Scroll)
+
+## Day fourteen
+
+* [JavaScript References VS Copying](https://luisf11.github.io/javascript30/14%20-%20JavaScript%20References%20VS%20Copying)
+
+## Day fifteen
+
+* [LocalStorage](https://luisf11.github.io/javascript30/15%20-%20LocalStorage)
