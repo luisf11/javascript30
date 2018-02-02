@@ -64,3 +64,15 @@ Is a challenge of 30 days coding vanilla javascript by Wesbos to practice or cod
 ## Day fifteen
 
 * [LocalStorage](https://luisf11.github.io/javascript30/15%20-%20LocalStorage)
+
+## Day sixteen
+
+* [Mouse Move Shadow](https://luisf11.github.io/javascript30/15%20-%20Mouse%20Move%20Shadow/index.html)
+
+## Day seventeen
+
+* [Sort Without Articles](https://luisf11.github.io/javascript30/15%20-%20Sort%20Without%20Articles/index.html)
+
+## Day eightteen
+
+* [Adding Up Times with Reduce](https://luisf11.github.io/javascript30/15%20-%20Adding%20Up%20Times%20with%20Reduce/index.html)
