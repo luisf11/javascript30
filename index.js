@@ -71,6 +71,21 @@ const challenges = [
     id: '15',
     name: "LocalStorage",
     path: "./15 - LocalStorage/index.html"
+  },
+  {
+    id: '16',
+    name: "Mouse Move Shadow",
+    path: "./16 - Mouse Move Shadow/index.html"
+  },
+  {
+    id: '17',
+    name: "Sort Without Articles",
+    path: "./17 - Sort Without Articles/index.html"
+  },
+  {
+    id: '18',
+    name: "Adding Up Times with Reduce",
+    path: "./18 - Adding Up Times with Reduce/index.html"
   }
   
 ];
