@@ -86,30 +86,87 @@ const challenges = [
     id: '18',
     name: "Adding Up Times with Reduce",
     path: "./18 - Adding Up Times with Reduce/index.html"
+  },
+  {
+    id: '19',
+    name: "Webcam Fun",
+    path: "19 - Webcam Fun/index.html"
+  },
+  {
+    id: '20',
+    name: "Speech Detection",
+    path: "20 - Speech Detection/index.html"
+  },
+  {
+    id: '21',
+    name: "Geolocation",
+    path: "21 - Geolocation/index.html"
+  },
+  {
+    id: '22',
+    name: "Follow Along Link Highlighter",
+    path: "22 - Follow Along Link Highlighter/index.html"
+  },
+  {
+    id: '24',
+    name: "Sticky Nav",
+    path: "24 - Sticky Nav/index.html"
+  },
+  {
+    id: '25',
+    name: "Event Capture, Propagation, Bubbling and Once",
+    path: "25 - Event Capture, Propagation, Bubbling and Once/index.html"
+  },
+  {
+    id: '26',
+    name: "Stripe Follow Along Nav",
+    path: "26 - Stripe Follow Along Nav/index.html"
+  },
+  {
+    id: '27',
+    name: "Click and Drag",
+    path: "27 - Click and Drag/index.html"
+  },
+  {
+    id: '28',
+    name: "Video Speed Controller",
+    path: "28 - Video Speed Controller/index.html"
+  },
+  {
+    id: '29',
+    name: "Countdown Timer",
+    path: "29 - Countdown Timer/index.html"
+  },
+  {
+    id: '30',
+    name: "Whack A Mole",
+    path: "30 - Whack A Mole/index.html"
   }
-  
 ];
-// 07 - Array Cardio Day 2
-const card = `
-           ${challenges
-             .map(
-               challenge => ` 
-           <div class="card">
-                <a href="${challenge.path}" class="card-container">
-                    <div class="card-day">
-                        <b>Day</b>
-                     <p>${challenge.id}</p> 
-                    </div>
-                    <div class="card-body">
-                        <h4>
-                            <b>${challenge.name}</b>
-                        </h4>
-                    </div>
-                </a>
-            </div>  
-                `
-             )
-             .join("")}
-`;
+
+const colorsArray = [
+  "#ffffff", 
+  "#000000",
+]
+
+const card =
+challenges
+.map(challenge => 
+  `<div class="card">
+    <a href="${challenge.path}" class="card-container">
+      <div class="card-day">
+        <b>Day</b>
+        <p>${challenge.id}</p> 
+      </div>
+      <div class="card-body">
+          <h4>
+              <b>${challenge.name}</b>
+          </h4>
+      </div>
+    </a>
+  </div>
+`)
+.join("");
+
 
 document.querySelector(".main-container").innerHTML = card;
